@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Loading...</title>
+        <style>
+            .center {
+                position: fixed;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            #text {
+                position: fixed;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto', sans-serif;
+                color: white;
+            }
+            #subtext {
+                position: fixed;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Roboto', sans-serif;
+                color: white;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color:black;">
+        <video autoplay loop muted inline class="center">
+            <source src="orb.mp4" type="video/mp4">
+        </video>
+        <h1 id="text">
+            Loading...
+        </h1>
+        <h3 id="subtext">
+            Or am I?
+        </h3>
+    </body>
+</html>
